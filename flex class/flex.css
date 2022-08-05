@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.flex{
+    background-color:rgb(77, 42, 165);
+color: white;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content:space-around;
+overflow: hidden;
+padding: 1rem;
+
+}
+.flex a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    text-transform: uppercase;
+    /* padding: 1rem; */
+
+}
+
+
+.logo{
+    background-color: gray;
+}
+
+
+div.logo a{
+    margin-right: 1rem;
+    font-size: 30px;
+    /* text-align: center;
+   align-content: center; */
+
+    /* align-self: center;  */
+    color: red;
+
+
+}
+
+hr{
+    margin-top: 4rem;
+    height: 2vh;
+    background-color:red ;
+}
+h1{
+    color: blue;
+    margin-top: 20px;
+}
+p{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    
+}
+.container{
+    /* border: 1px solid red; */
+    margin: 10px;
+    padding: 5px;
+
+}
+.img{
+    float:right;
+    justify-content: center;
+    /* border: 1px solid gray; */
+    background-image: url(./img/pngkit_carrinho-de-compras-png_4110215.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
+     height: 50vh; 
+     width: 45%; 
+     padding-right: 30%;
+}
+.fullstack{
+    display: flex;
+    justify-content: space-between; 
+    /* display: grid;
+   grid-template-columns: (8,1fr); */
+    background-color: blue;
+    gap: 10px;
+ 
+   
+}
+.box-n{
+    
+    border-radius: 10px;
+    overflow: hidden;
+box-shadow: 4px;
+}
+a{
+     
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+@media(max-width:600px){
+body{
+    background-color: aquamarine;
+}
+html, body{
+    overflow-x: hidden;
+    width: 100%;
+}
+.box{
+    visibility: hidden;
+    /* flex-grow: 0; */
+
+}
+
+}
